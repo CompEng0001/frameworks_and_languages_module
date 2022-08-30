@@ -5,6 +5,7 @@
 #  - init: yarn install
 #    command: yarn build
 tasks:
+  - command: sleep 5 
   - command: code technical_report.md
 # Ports to expose on workspace startup
 ports:
